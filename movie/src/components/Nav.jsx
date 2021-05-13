@@ -16,6 +16,17 @@ function Nav(props) {
             <h1>Logo</h1>
             </Link> 
             <ul style={navStyle}>
+                <Link to="/movies">
+                <li>Movies</li>
+                </Link>
+
+                <Link to="Actors">
+                <li>Actors</li>
+                </Link>
+
+                <Link to="tv">
+                <li>Tv</li>
+                </Link>
 
             </ul>
 
